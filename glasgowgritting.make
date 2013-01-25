@@ -2,7 +2,7 @@
 core = "7.x"
 api = "2"
 ; comment this out in to use on drupal.org
-projects[] = "drupal"
+;projects[] = "drupal"
 
 ; Modules
 ;projects[advanced_help][version] = "1.0"
@@ -10,9 +10,6 @@ projects[advanced_help][subdir] = "contrib"
 
 ;projects[backup_migrate][version] = "2.4"
 projects[backup_migrate][subdir] = "contrib"
-
-;projects[botcha][version] = "1.5"
-projects[botcha][subdir] = "contrib"
 
 ;projects[captcha][version] = "1.0-beta2"
 projects[captcha][subdir] = "contrib"
@@ -70,6 +67,7 @@ projects[views_php][subdir] = "contrib"
 
 ;projects[webform][version] = "3.18"
 projects[webform][subdir] = "contrib"
+
 
 ; Themes
 ; footheme
