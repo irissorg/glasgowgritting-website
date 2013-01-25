@@ -4,6 +4,10 @@ api = "2"
 ; comment this out in to use on drupal.org
 ;projects[] = "drupal"
 
+; Patches
+; Security 
+projects[drupal][patch][1269780] = http://drupal.org/files/drupal-7.x-symlinksifownermatch-1269780-10.patch
+
 ; Modules
 ;projects[advanced_help][version] = "1.0"
 projects[advanced_help][subdir] = "contrib"
@@ -100,4 +104,6 @@ libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profi
 ;libraries[OpenLayers][destination] = "libraries"
 ;libraries[OpenLayers][download][type] = "get"
 ;libraries[OpenLayers][download][url] = "" ; TODO add download URI
+
+
 
