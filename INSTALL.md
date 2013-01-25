@@ -1,5 +1,5 @@
-Project: Glasgow Gritting, http://gccgritting.iriss.org.uk
-==========================================================
+Project: Glasgow Gritting
+=========================
 
 Subproject: Website
 -------------------
@@ -19,4 +19,6 @@ Minimum recommended system for Glasgow Gritting
 * Memory 512MB+
 
 1. Download and install 'drush', http://drupal.org/project/drush
+2. Run 
+`drush make https://raw.github.com/irissorg/glasgowgritting-website/master/glasgowgritting.make glasgowgritting`
 
