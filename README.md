@@ -4,8 +4,11 @@ Project: Glasgow Gritting, http://gccgritting.iriss.org.uk
 Subproject: Website
 -------------------
 
+Built on [Drupal](http://drupal.org)
+
 N.B. This installer is still being worked on would recommend 
-waiting for the full version..
+waiting for the full version.
+
 This version will automate downloading the Drupal
 content management system and all required modules
 
