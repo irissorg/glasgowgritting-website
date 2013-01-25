@@ -9,7 +9,9 @@
  */
 function glasgowgritting_install() {
   // Enable some glasgowgritting blocks.
-  $default_theme = 'iriss_gccgritting';
+//  $default_theme = 'iriss_gccgritting';
+  $default_theme = 'pixture_reloaded';
+
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
