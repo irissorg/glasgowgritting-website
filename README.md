@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project: Glasgow Gritting, http://gccgritting.iriss.org.uk
 
 Subproject: Website
@@ -9,3 +10,7 @@ content management system and all required modules
 
 TODO: Data
 TODO: Themes
+=======
+grittingweb-drupal
+==================
+>>>>>>> d70d9426cc5cc72438586473f8c0c1e5e84dd344
