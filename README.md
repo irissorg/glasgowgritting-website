@@ -9,5 +9,6 @@ waiting for the full version..
 This version will automate downloading the Drupal
 content management system and all required modules
 
-TODO: Data
-TODO: Themes
+* TODO: Enable modules
+* TODO: Data
+* TODO: Themes
