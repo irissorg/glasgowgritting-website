@@ -5,7 +5,7 @@
 api = "2"
 core = "7.x"
 
-projects[] = "drupal"
+;projects[] = "drupal"
 ; Patches
 ; Security 
 projects[drupal][patch][1269780] = http://drupal.org/files/drupal-7.x-symlinksifownermatch-1269780-10.patch
