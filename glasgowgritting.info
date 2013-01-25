@@ -1,0 +1,481 @@
+; Packaging information for glasgowgritting
+name = "Glasgow Gritting Demo"
+description = "Drupal 7 installation profile for Glasgow Gritting"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = aggregator
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = php
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+; Fields
+dependencies[] = geofield
+; Meta tags
+dependencies[] = metatag
+; OpenLayers
+dependencies[] = openlayers
+dependencies[] = openlayers_kml_layer
+dependencies[] = openlayers_ui
+dependencies[] = openlayers_views
+; Other
+dependencies[] = advanced_help
+dependencies[] = backup_migrate
+dependencies[] = feed_path_publisher
+dependencies[] = geocoder
+dependencies[] = geophp
+dependencies[] = libraries
+dependencies[] = noggin
+dependencies[] = pathauto
+dependencies[] = refresh
+dependencies[] = token
+; Spam control
+dependencies[] = botcha
+dependencies[] = captcha
+; Statistics
+dependencies[] = googleanalytics
+; Views
+dependencies[] = views
+dependencies[] = views_php
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+
+; ----------
+; Variables
+; ----------
+variables[additional_settings__active_tab_delme] = 'edit-submission'
+variables[additional_settings__active_tab_route] = 'edit-submission'
+variables[additional_settings__active_tab_test_location] = 'edit-comment'
+variables[additional_settings__active_tab_webform] = 'edit-display'
+variables[admin_theme] = 'seven'
+variables[aggregator_allowed_html_tags] = '<a> <b> <br> <dd> <dl> <dt> <em> <i> <li> <ol> <p> <strong> <u> <ul>'
+variables[aggregator_category_selector] = 'checkboxes'
+variables[aggregator_clear] = '172800'
+variables[aggregator_summary_items] = '3'
+variables[aggregator_teaser_length] = '600'
+variables[anonymous] = 'Anonymous'
+variables[backup_migrate_destination_id] = 'download'
+variables[backup_migrate_profile_id] = '4ed06e67ce506f0731a7dd0e0d813597'
+variables[backup_migrate_schedule_last_run_3247fa0e381916f49a36ab2739f19daf] = 1359067741
+variables[backup_migrate_schedule_last_run_b339b294b26123751b5650ceb927fe2d] = 1359068642
+variables[backup_migrate_source_id] = 'db'
+variables[botcha_form_passed_counter] = 4
+variables[botcha_loglevel] = '2'
+variables[botcha_on_captcha_forms] = 1
+variables[botcha_placement_map_cache][comment_form][key] = NULL
+variables[botcha_placement_map_cache][comment_form][weight] = 18.9
+variables[botcha_placement_map_cache][webform_client_form_61][path][0] = 'actions'
+variables[botcha_placement_map_cache][webform_client_form_61][key] = 'submit'
+variables[botcha_placement_map_cache][webform_client_form_61][weight] = 10
+variables[botcha_secret] = '44cbbdd7fcd731d447b050f250f15a53'
+variables[cache_flush_cache_metatag] = 1359074041
+variables[cache_flush_cache_token] = 1359074041
+variables[captcha_add_captcha_description] = 1
+variables[captcha_default_challenge] = 'captcha/Math'
+variables[captcha_default_validation] = '1'
+variables[captcha_description] = 'This question is for testing whether you are a human visitor and to prevent automated spam submissions.'
+variables[captcha_persistence] = '1'
+variables[comment_default_mode_test_location] = 1
+variables[comment_default_per_page_test_location] = '50'
+variables[comment_form_location_test_location] = 1
+variables[comment_preview_test_location] = '1'
+variables[comment_subject_field_test_location] = 1
+variables[comment_test_location] = '1'
+variables[cron_safe_threshold] = '0'
+variables[dashboard_stashed_blocks][0][module] = 'node'
+variables[dashboard_stashed_blocks][0][delta] = 'recent'
+variables[dashboard_stashed_blocks][0][region] = 'dashboard_main'
+variables[dashboard_stashed_blocks][1][module] = 'user'
+variables[dashboard_stashed_blocks][1][delta] = 'new'
+variables[dashboard_stashed_blocks][1][region] = 'dashboard_sidebar'
+variables[dashboard_stashed_blocks][2][module] = 'search'
+variables[dashboard_stashed_blocks][2][delta] = 'form'
+variables[dashboard_stashed_blocks][2][region] = 'dashboard_sidebar'
+variables[dashboard_stashed_blocks][3][module] = 'comment'
+variables[dashboard_stashed_blocks][3][delta] = 'recent'
+variables[dashboard_stashed_blocks][3][region] = 'dashboard_inactive'
+variables[dashboard_stashed_blocks][4][module] = 'user'
+variables[dashboard_stashed_blocks][4][delta] = 'online'
+variables[dashboard_stashed_blocks][4][region] = 'dashboard_inactive'
+variables[date_default_timezone] = 'Europe/London'
+variables[date_first_day] = '0'
+variables[date_format_long] = 'l, F j, Y - H:i'
+variables[date_format_medium] = 'F j, Y - H:i'
+variables[date_format_short] = 'M j Y - H:i'
+variables[default_nodes_main] = '10'
+variables[field_bundle_settings_node__route][view_modes][teaser][custom_settings] = true
+variables[field_bundle_settings_node__route][view_modes][full][custom_settings] = false
+variables[field_bundle_settings_node__route][view_modes][rss][custom_settings] = false
+variables[field_bundle_settings_node__route][view_modes][token][custom_settings] = false
+variables[field_bundle_settings_node__route][extra_fields][form][title][weight] = '0'
+variables[field_bundle_settings_node__route][extra_fields][form][path][weight] = '2'
+variables[field_bundle_settings_taxonomy_term__areas][view_modes][full][custom_settings] = false
+variables[field_bundle_settings_taxonomy_term__areas][view_modes][token][custom_settings] = false
+variables[field_bundle_settings_taxonomy_term__areas][extra_fields][display][description][default] = array (
+  'weight' => '0',
+  'visible' => true,
+)
+variables[field_bundle_settings_taxonomy_term__areas][extra_fields][display][description][full] = array (
+  'weight' => '0',
+  'visible' => true,
+)
+variables[file_private_path] = '/path/to/private'
+variables[filter_fallback_format] = 'plain_text'
+variables[googleanalytics_account] = 'UA-yourid'
+variables[googleanalytics_cache] = 1
+variables[googleanalytics_custom] = '0'
+variables[googleanalytics_custom_var][slots][1][slot] = 1
+variables[googleanalytics_custom_var][slots][1][name] = ''
+variables[googleanalytics_custom_var][slots][1][value] = ''
+variables[googleanalytics_custom_var][slots][1][scope] = '3'
+variables[googleanalytics_custom_var][slots][2][slot] = 2
+variables[googleanalytics_custom_var][slots][2][name] = ''
+variables[googleanalytics_custom_var][slots][2][value] = ''
+variables[googleanalytics_custom_var][slots][2][scope] = '3'
+variables[googleanalytics_custom_var][slots][3][slot] = 3
+variables[googleanalytics_custom_var][slots][3][name] = ''
+variables[googleanalytics_custom_var][slots][3][value] = ''
+variables[googleanalytics_custom_var][slots][3][scope] = '3'
+variables[googleanalytics_custom_var][slots][4][slot] = 4
+variables[googleanalytics_custom_var][slots][4][name] = ''
+variables[googleanalytics_custom_var][slots][4][value] = ''
+variables[googleanalytics_custom_var][slots][4][scope] = '3'
+variables[googleanalytics_custom_var][slots][5][slot] = 5
+variables[googleanalytics_custom_var][slots][5][name] = ''
+variables[googleanalytics_custom_var][slots][5][value] = ''
+variables[googleanalytics_custom_var][slots][5][scope] = '3'
+variables[googleanalytics_domain_mode] = '0'
+variables[googleanalytics_js_scope] = 'header'
+variables[googleanalytics_last_cache] = 1359032642
+variables[googleanalytics_pages] = 'admin
+
+admin/*
+
+batch
+
+node/add*
+
+node/*/*
+
+user/*/*'
+variables[googleanalytics_privacy_donottrack] = 1
+variables[googleanalytics_roles][1] = '1'
+variables[googleanalytics_roles][2] = 0
+variables[googleanalytics_roles][3] = 0
+variables[googleanalytics_trackfiles] = 1
+variables[googleanalytics_trackfiles_extensions] = '7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip'
+variables[googleanalytics_trackmailto] = 1
+variables[googleanalytics_trackmessages][status] = 0
+variables[googleanalytics_trackmessages][warning] = 0
+variables[googleanalytics_trackmessages][error] = 0
+variables[googleanalytics_trackoutbound] = 1
+variables[googleanalytics_visibility_pages] = '0'
+variables[googleanalytics_visibility_roles] = '0'
+variables[image_toolkit] = 'gd'
+variables[jquery_update_jquery_cdn] = 'google'
+variables[linkchecker_action_status_code_301] = '0'
+variables[linkchecker_action_status_code_404] = '0'
+variables[linkchecker_check_connections_max] = '8'
+variables[linkchecker_check_library] = 'core'
+variables[linkchecker_check_links_interval] = '172800'
+variables[linkchecker_check_links_types] = '0'
+variables[linkchecker_check_useragent] = 'Drupal (+http://drupal.org/)'
+variables[linkchecker_cleanup_links_last] = 1358882341
+variables[linkchecker_disable_link_check_for_urls] = 'example.com
+example.net
+example.org'
+variables[linkchecker_extract_from_a] = 1
+variables[linkchecker_filter_blacklist][filter_autop] = 'filter_autop'
+variables[linkchecker_filter_blacklist][filter_url] = 0
+variables[linkchecker_filter_blacklist][filter_htmlcorrector] = 0
+variables[linkchecker_filter_blacklist][filter_html_escape] = 0
+variables[linkchecker_filter_blacklist][filter_html] = 0
+variables[linkchecker_filter_blacklist][php_code] = 0
+variables[linkchecker_ignore_response_codes] = '200
+
+206
+
+302
+
+304
+
+401
+
+403'
+variables[linkchecker_impersonate_user] = 'admin_gccgritting'
+variables[linkchecker_scan_blocks] = 1
+variables[linkchecker_scan_nodetypes][article] = 'article'
+variables[linkchecker_scan_nodetypes][page] = 'page'
+variables[linkchecker_scan_nodetypes][webform] = 'webform'
+variables[linkchecker_scan_nodetypes][route] = 0
+variables[menu_default_active_menus][0] = 'features'
+variables[menu_default_active_menus][2] = 'main-menu'
+variables[menu_default_active_menus][3] = 'management'
+variables[menu_default_active_menus][4] = 'navigation'
+variables[menu_default_active_menus][5] = 'user-menu'
+variables[menu_options_delme][0] = 'main-menu'
+variables[menu_options_route][0] = 'main-menu'
+variables[menu_options_test_location][0] = 'main-menu'
+variables[menu_options_webform][0] = 'main-menu'
+variables[menu_parent_delme] = 'main-menu:0'
+variables[menu_parent_route] = 'main-menu:596'
+variables[menu_parent_test_location] = 'main-menu:0'
+variables[menu_parent_webform] = 'main-menu:0'
+variables[metatag_schema_installed] = true
+variables[node_admin_theme] = 1
+variables[node_options_delme][0] = 'status'
+variables[node_options_delme][1] = 'promote'
+variables[node_options_page][0] = 'status'
+variables[node_options_route][0] = 'status'
+variables[node_options_test_location][0] = 'status'
+variables[node_options_webform][0] = 'status'
+variables[node_preview_route] = '1'
+variables[node_preview_webform] = '1'
+variables[node_submitted_delme] = 1
+variables[openlayers_default_map] = 'default'
+variables[openlayers_google_version] = '3.5'
+variables[openlayers_layers_google_api] = ''
+variables[openlayers_source] = 'http://openlayers.org/api/2.12/OpenLayers.js'
+variables[openlayers_ui_preview_map] = 1
+variables[openlayers_ui_version_check] = 'Release 2.12'
+variables[pathauto_blog_pattern] = 'blogs/[user:name]'
+variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_node_pattern] = 'content/[node:title]'
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_areas_pattern] = 'area/[term:name]'
+variables[pathauto_taxonomy_term_glasgowplaces_pattern] = 'places/[term:name]'
+variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_user_pattern] = 'users/[user:name]'
+variables[path_alias_whitelist][node] = true
+variables[path_alias_whitelist][taxonomy] = true
+variables[path_alias_whitelist][user] = true
+variables[preprocess_css] = 1
+variables[preprocess_js] = 1
+variables[save_continue_delme] = 'Save and add fields'
+variables[save_continue_route] = 'Save and add fields'
+variables[save_continue_test_location] = 'Save and add fields'
+variables[site_frontpage] = 'node/8'
+variables[theme_adaptivetheme_subtheme_files_directory] = 'public://adaptivetheme/adaptivetheme_subtheme_files'
+variables[theme_at_gccgritting_files_directory] = 'sites/all/themes/at_gccgritting/generated_files'
+variables[theme_default] = 'iriss_gccgritting'
+variables[theme_footheme_gccgritting_files_directory] = 'sites/all/themes/footheme_gccgritting/generated_files'
+variables[theme_iriss_gccgritting_files_directory] = 'sites/all/themes/iriss_gccgritting/generated_files'
+variables[theme_pixture_reloaded_files_directory] = 'public://adaptivetheme/pixture_reloaded_files'
+variables[theme_sky_files_directory] = 'public://adaptivetheme/sky_files'
+variables[tracking__active_tab] = 'edit-domain-tracking'
+variables[update_check_frequency] = '1'
+variables[update_last_email_notification] = 1359053341
+variables[update_notification_threshold] = 'security'
+variables[upload_extensions_default] = ' csv'
+variables[user_cancel_method] = 'user_cancel_block'
+variables[user_default_timezone] = '0'
+variables[user_email_verification] = 1
+variables[user_mail_cancel_confirm_body] = '[user:name],
+
+
+
+A request to cancel your account has been made at [site:name].
+
+
+
+You may now cancel your account on [site:url-brief] by clicking this link or copying and pasting it into your browser:
+
+
+
+[user:cancel-url]
+
+
+
+NOTE: The cancellation of your account is not reversible.
+
+
+
+This link expires in one day and nothing will happen if it is not used.
+
+
+
+--  [site:name] team'
+variables[user_mail_cancel_confirm_subject] = 'Account cancellation request for [user:name] at [site:name]'
+variables[user_mail_password_reset_body] = '[user:name],
+
+
+
+A request to reset the password for your account has been made at [site:name].
+
+
+
+You may now log in by clicking this link or copying and pasting it to your browser:
+
+
+
+[user:one-time-login-url]
+
+
+
+This link can only be used once to log in and will lead you to a page where you can set your password. It expires after one day and nothing will happen if it\'s not used.
+
+
+
+--  [site:name] team'
+variables[user_mail_password_reset_subject] = 'Replacement login information for [user:name] at [site:name]'
+variables[user_mail_register_admin_created_body] = '[user:name],
+
+
+
+A site administrator at [site:name] has created an account for you. You may now log in by clicking this link or copying and pasting it to your browser:
+
+
+
+[user:one-time-login-url]
+
+
+
+This link can only be used once to log in and will lead you to a page where you can set your password.
+
+
+
+After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+
+
+username: [user:name]
+
+password: Your password
+
+
+
+--  [site:name] team'
+variables[user_mail_register_admin_created_subject] = 'An administrator created an account for you at [site:name]'
+variables[user_mail_register_no_approval_required_body] = '[user:name],
+
+
+
+Thank you for registering at [site:name]. You may now log in by clicking this link or copying and pasting it to your browser:
+
+
+
+[user:one-time-login-url]
+
+
+
+This link can only be used once to log in and will lead you to a page where you can set your password.
+
+
+
+After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+
+
+username: [user:name]
+
+password: Your password
+
+
+
+--  [site:name] team'
+variables[user_mail_register_no_approval_required_subject] = 'Account details for [user:name] at [site:name]'
+variables[user_mail_register_pending_approval_body] = '[user:name],
+
+
+
+Thank you for registering at [site:name]. Your application for an account is currently pending approval. Once it has been approved, you will receive another e-mail containing information about how to log in, set your password, and other details.
+
+
+
+
+
+--  [site:name] team'
+variables[user_mail_register_pending_approval_subject] = 'Account details for [user:name] at [site:name] (pending admin approval)'
+variables[user_mail_status_activated_body] = '[user:name],
+
+
+
+Your account at [site:name] has been activated.
+
+
+
+You may now log in by clicking this link or copying and pasting it into your browser:
+
+
+
+[user:one-time-login-url]
+
+
+
+This link can only be used once to log in and will lead you to a page where you can set your password.
+
+
+
+After setting your password, you will be able to log in at [site:login-url] in the future using:
+
+
+
+username: [user:name]
+
+password: Your password
+
+
+
+--  [site:name] team'
+variables[user_mail_status_activated_notify] = 1
+variables[user_mail_status_activated_subject] = 'Account details for [user:name] at [site:name] (approved)'
+variables[user_mail_status_blocked_body] = '[user:name],
+
+
+
+Your account on [site:name] has been blocked.
+
+
+
+--  [site:name] team'
+variables[user_mail_status_blocked_subject] = 'Account details for [user:name] at [site:name] (blocked)'
+variables[user_mail_status_canceled_body] = '[user:name],
+
+
+
+Your account on [site:name] has been canceled.
+
+
+
+--  [site:name] team'
+variables[user_mail_status_canceled_subject] = 'Account details for [user:name] at [site:name] (canceled)'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_path] = 'pictures'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = '0'
+variables[views_exposed_filter_any_label] = 'new_any'
+variables[views_ui_always_live_preview] = 1
+variables[views_ui_custom_theme] = '_default'
+variables[views_ui_show_advanced_column] = 1
+variables[views_ui_show_advanced_help_warning] = 1
+variables[views_ui_show_preview_information] = 1
+variables[views_ui_show_sql_query] = 1
+variables[views_ui_show_sql_query_where] = 'above'
+variables[webform_node_types][0] = 'webform'
+
