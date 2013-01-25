@@ -117,7 +117,7 @@ function glasgowgritting_install() {
   }
 
   // Insert default pre-defined RDF mapping into the database.
-  $rdf_mappings = array(
+/*  $rdf_mappings = array(
     array(
       'type' => 'node',
       'bundle' => 'page',
@@ -129,7 +129,7 @@ function glasgowgritting_install() {
   foreach ($rdf_mappings as $rdf_mapping) {
     rdf_mapping_save($rdf_mapping);
   }
-
+*/
   // Default "Page" to not be promoted and have comments disabled.
   variable_set('node_options_page', array('status'));
 
