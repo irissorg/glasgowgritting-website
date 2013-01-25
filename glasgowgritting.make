@@ -47,7 +47,7 @@ projects[noggin][subdir] = "contrib"
 ;projects[openlayers][version] = "2.0-beta1"
 projects[openlayers][subdir] = "contrib"
 
-;projects[openlayers_kml_layer][version] = "1.x-dev"
+projects[openlayers_kml_layer][version] = "1.x-dev"
 projects[openlayers_kml_layer][subdir] = "contrib"
 
 ;projects[pathauto][version] = "1.2"
