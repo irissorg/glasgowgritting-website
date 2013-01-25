@@ -11,6 +11,9 @@ projects[advanced_help][subdir] = "contrib"
 ;projects[backup_migrate][version] = "2.4"
 projects[backup_migrate][subdir] = "contrib"
 
+projects[botcha][version] = "1.5"
+projects[botcha][subdir] = "contrib"
+
 ;projects[captcha][version] = "1.0-beta2"
 projects[captcha][subdir] = "contrib"
 
